@@ -1,0 +1,20 @@
+# --- Minimal Dependencies for SpecVoco + Duration Predictor ---
+
+# Core Libraries (PyTorch & Numerical)
+torch
+torchaudio
+numpy==2.0.2
+accelerate==1.10.1
+packaging==25.0
+
+# Voicebox Core Logic & Utilities
+beartype==0.21.0
+einops==0.8.1
+vocos==0.1.0
+torchdiffeq==0.2.5
+torchode==1.0.0
+
+# Required TTS Dependencies (for DP, Transformer, etc.)
+
+
+gateloop-transformer==0.2.5

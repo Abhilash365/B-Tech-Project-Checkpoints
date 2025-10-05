@@ -1,0 +1,27 @@
+# --- Core Dependencies for Voicebox Architecture and Training ---
+
+# Main Project Modules
+voicebox-pytorch==0.5.0
+audiolm-pytorch
+naturalspeech2-pytorch==0.1.8
+spear-tts-pytorch==0.4.8
+gateloop-transformer==0.2.5
+
+# Primary ML Frameworks and Tools
+torch
+torchaudio
+accelerate
+numpy
+packaging
+
+# Flow Matching and ODE Solvers
+torchdiffeq
+torchode
+
+# Architecture and Code Utilities
+beartype==0.21.0
+einops==0.8.1
+vocos==0.1.0
+
+# Deep Dependency (Required by audiolm-pytorch for Hubert/Wav2vec)
+fairseq
